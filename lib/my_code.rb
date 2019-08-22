@@ -1,6 +1,6 @@
 # My Code here....
 def my_own_map
-  yield
+  source_array.map{|x| yield}
 end 
 
 my_own_map{
