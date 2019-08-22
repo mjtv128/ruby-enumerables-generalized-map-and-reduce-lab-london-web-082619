@@ -9,7 +9,7 @@ def map(source_array)
   return new 
 end 
 
-def reduce(array, startg)
+def reduce(array, starting_point = nil)
 # def reduce_to_total(source_array, starting_point =0)
 #     if !starting_point
 #       source_array.reduce(source_array[0], :+)
