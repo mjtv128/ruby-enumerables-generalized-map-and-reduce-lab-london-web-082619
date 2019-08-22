@@ -1,5 +1,9 @@
 # My Code here....
-require 'pry'
+def my_own_map
+  yield
+end 
+
+
 def map_to_negativize(source_array)
   source_array.map { |n| n * -1 }
 end 
